@@ -23,36 +23,36 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
+        <title>Magic App</title>
     </head>
     <body>
         <div class="app">
             <div class="container">
-    <div class="row">
-      <div class="col-md-3">
-    <form action="" id="search">
-      <h3>Card Search</h3>
-      <h4><input autofocus type="search" id="cardname" value=""></h4>
-<!--       <div class="ui-widget" style="margin-top:2em;">
- --><!--       <div id="log" class="ui-widget-content" style="height: 200px; width: 300px; overflow: auto; display:none;"></div>
- -->      
-      <div id="#error" class="hidden">Please enter a valid card.</div>
-    </form>
-    <!-- <a id="advanceOpen" href="">Advanced Search</a>
-    <div id="advanced" class="hidden">
-      <form action="" id="advancedSearch">
-        <input type="search" id="advancedParams" value="" placeholder="contains">
-      </form>
-    </div> -->
-  </div>
-  <div class="col-md-3">
-    <img id="cardImage"><p></p>
-  </div>
-  <div class="col-md-3">
-        <p id="cardInfo" class="active"></p>
-  </div>
-</div>
-</div>
+                <div class="row">
+                  <div class="col-md-3">
+                <form action="" id="search">
+                  <h3>Card Search</h3>
+                  <h4><input autofocus type="search" id="cardname" value=""></h4>
+            <!--       <div class="ui-widget" style="margin-top:2em;">
+             --><!--       <div id="log" class="ui-widget-content" style="height: 200px; width: 300px; overflow: auto; display:none;"></div>
+             -->      
+                  <div id="#error" class="hidden">Please enter a valid card.</div>
+                </form>
+                <!-- <a id="advanceOpen" href="">Advanced Search</a>
+                <div id="advanced" class="hidden">
+                  <form action="" id="advancedSearch">
+                    <input type="search" id="advancedParams" value="" placeholder="contains">
+                  </form>
+                </div> -->
+              </div>
+              <div class="col-md-3">
+                <img id="cardImage"><p></p>
+              </div>
+              <div class="col-md-3">
+                    <p id="cardInfo" class="active"></p>
+              </div>
+            </div>
+        </div>
     <script id="card-template" type="x-tmpl-mustache">
     <div id="newCard" class="multiverseId">
       <div id="{{ name }}" class="name">
@@ -66,6 +66,7 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.1.2/mustache.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.js"></script>
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
